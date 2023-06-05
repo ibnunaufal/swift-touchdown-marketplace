@@ -13,6 +13,7 @@ let players: [Player] = Bundle.main.decode(file: "player.json")
 let categories: [Category] = Bundle.main.decode(file: "category.json")
 let products: [Product] = Bundle.main.decode(file: "product.json")
 let brands: [Brand] = Bundle.main.decode(file: "brand.json")
+let sampleProduct: Product = products[1]
 
 // COLOR
 
